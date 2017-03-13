@@ -9,7 +9,7 @@ keywords: junior cesar abreu, junior cesar, são geraldo, developer, html, html5
 username: Júnior César Abreu
 user_description: Vou colocar uma descrição aqui ainda.
 user_title: Software Developer
-email: "juniorcesarabreu", "live.com"
+email: ['juniorcesarabreu', 'live.com']
 # twitter_username: lorem_ipsum
 github_username:  juniorcesarabreu
 gplus_username:  104674023050699476535
