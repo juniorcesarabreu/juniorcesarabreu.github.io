@@ -6,7 +6,7 @@
   <meta name="reply-to" content="contato@juniorcesarabreu.tk">
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   {% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}">{% endif %}
-  {% if username %}<meta name="author" content="{{ username }}">{% endif %}
+  {% if site.username %}<meta name="author" content="{{ site.username }}">{% endif %}
   
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
