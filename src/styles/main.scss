@@ -215,6 +215,7 @@ body {
 }
 
 .images {
+    box-shadow: 10px 10px 5px #888888;
   @media only screen and (min-width: $cut) {
     float: right;
   }
