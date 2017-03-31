@@ -1,0 +1,32 @@
+Instale Ruby
+    Baixe aqui: https://www.ruby-lang.org/en/downloads/
+    
+Instale RubyGem
+    Baixe RubyGem aqui: https://rubygems.org/pages/download
+    Descompacte dentro de um diretório e cd até ele
+    Instale com: ruby setup.rb (Pode necessitar privilégios admin/root)
+    Mis informações: ruby setup.rb --help
+    
+Instale GCC e Make
+    verifique gcc -v e make -v
+    
+> gem install jekyll bundler
+    // jekyll = gerador de site estático
+    // bundler = Lê o Gemfiles e baixa os Gems
+
+--------------------------
+
+> jekyll new meu_incrivel_site
+
+> cd meu_incrivel_site
+
+cd meu_incrivel_site> bundler exec jekyll serve
+
+------------------------------------
+
+Instale Node.js
+
+> npm install // instalar as dependencias de package.json
+
+> gulp // automatiza as tarefas e executa no navegador
+
